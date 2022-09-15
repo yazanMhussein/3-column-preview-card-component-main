@@ -1,0 +1,223 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:hsl(0, 0%, 95%);
+    }
+.mainBody{
+    display: flex;
+    flex-direction:row;
+    justify-content: center; 
+    justify-items: center; 
+    align-items: center;
+   
+    /* margin: 7% 25% 50% 25%; */
+    }
+    
+.carBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0% 5%;
+    height: 70%;
+    width: 30%;
+    border: 10px;
+    border-top-left-radius: 5%;
+    border-end-start-radius: 5%;
+    background-color: hsl(31, 77%, 52%);
+    font-size: 0.938rem;
+   
+}
+.carIcon{
+    }
+.headerTextC{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:hsl(0, 0%, 95%);}
+.subTextC{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;}
+.learnMoreC{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);    
+    height: 10%;
+    width: 70%;
+    margin-bottom: 10%;
+    border-style: none;
+    border-radius: 50px;
+    margin-top: 20%;
+}
+.learnMoreC:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 50px;}
+.suvsBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    padding: 0% 5%;
+    height: 70%;
+    width: 30%;
+    background-color:hsl(184, 100%, 22%);
+    font-size: 0.938rem;
+}
+
+.suvsIcon{}
+.headerTextS{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:hsl(0, 0%, 95%);}
+.subTextS{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.learnMoreS{ 
+    font-family: 'Lexend Deca', sans-serif;
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);    
+    height: 10%;
+    width: 70%;
+    margin-bottom: 10%;
+    border-style: none;
+    border-radius: 50px;
+    margin-top: 20%;
+}
+.learnMoreS:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 50px;}
+
+
+.luxuryBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    padding: 0% 5%;
+    height: 70%;
+    width: 30%;
+    border-start-end-radius: 5%;
+    border-end-end-radius: 5%;
+    background-color:hsl(179, 100%, 13%);
+    font-size: 0.938rem;
+}
+
+.luxuryIcon{}
+.headerTextL{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:hsl(0, 0%, 95%);}
+.subTextL{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.learnMoreL{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);    
+    height: 10%;
+    width: 70%;
+    margin-bottom: 10%;
+    border-style: none;
+    border-radius: 50px;
+    margin-top: 20%;
+}
+.learnMoreL:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 50px;}
+   
+    @media screen and (max-width: 600px)  {
+        body{
+            display: flex;
+            min-height: 100vh;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            background-color:hsl(0, 0%, 95%);
+            }
+   .mainBody{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;}
+    .carBox{border: 10px;
+        border-top-right-radius: 5%;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 0px;
+        width: 50%;
+        font-size: .4;}
+    .carIcon{margin-top: 10%;}    
+
+    .learnMoreC{font-family: 'Lexend Deca', sans-serif;
+        background-color:hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);    
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10%;
+        border-style: none;
+        border-radius: 50px;
+        margin-top: 5%;
+        padding: 5%;}    
+       
+
+    .suvsBox{
+        border: 10px;
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0px;
+        width: 50%;
+        font-size: .4;}
+    .suvsIcon{margin-top: 10%;}    
+    
+    .learnMoreS{font-family: 'Lexend Deca', sans-serif;
+        background-color:hsl(0, 0%, 95%);
+        color:  hsl(184, 100%, 22%);    
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10%;
+        border-style: none;
+        border-radius: 50px;
+        margin-top: 5%;
+        padding: 5%;}    
+
+    .luxuryBox{
+    border: 10px;
+    border-start-end-radius: 0%;
+    border-end-start-radius: 5%;
+    border-end-end-radius: 5%;
+    width: 50%;
+    font-size: .4;}
+    
+    .luxuryIcon{margin-top: 10%;}    
+        
+    .learnMoreL{font-family: 'Lexend Deca', sans-serif;
+    background-color:hsl(0, 0%, 95%);
+    color:  hsl(179, 100%, 13%);    
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    border-style: none;
+    border-radius: 50px;
+    margin-top: 5%;
+    padding: 5%;}            
+}
